@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <string name="app_name">My First App</string>
+  
+    
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fragment_one">Fragment One</string>
+	<string name="drawer_open">Open the Drawer</string>
+	<string name="drawer_close">Close the Drawer</string>
+	
+	
+	 <string-array name = "choices_array" >
+        <item>Messages</item>
+        <item>New Message</item>
+        <item>Show Specific Message</item>
+        <item>Map of users</item>
+        <item> Preferences</item>
+     </string-array>
+	 <string name="max_id_holder"/>
+	
+</resources>

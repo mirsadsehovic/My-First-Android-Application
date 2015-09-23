@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+ 
+ 
+ <!-- <PreferenceCategory android:title="Preferences">
+ 
+ 
+ 		<SwitchPreference android:title="Preference" />
+   
+ 
+ <PreferenceScreen android:title="Sub Preferences"
+        android:fragment="com.example.SettingsDemo.SubPrefFragment"/>
+ 
+
+ </PreferenceCategory>
+
+
+<CheckBoxPreference 
+    
+    	android:key="gps_enable"
+    	android:title="GPS"
+    	android:summary="Turns GPS on or off"
+    	android:persistent="false"
+    
+    /> 
+  -->
+<SwitchPreference 
+    
+    android:key="gps_enable_switch"
+    android:title = "GPS"
+    android:summary=" Toggle GPS on or off"
+    
+    
+    />
+
+<EditTextPreference
+    android:key="edit_text_preference"
+    android:title="Username"
+    android:summary="Create a username"
+    />
+
+<EditTextPreference 
+    android:key="max_id_holder"
+    android:title=""/>
+
+
+
+</PreferenceScreen>
